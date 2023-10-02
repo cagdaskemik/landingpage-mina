@@ -1,4 +1,7 @@
 <div class="waves-container">
+	<div class="image">
+		<img src="/images/bg.png" alt="Background" />
+	</div>
 	<svg
 		class="waves"
 		xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +46,6 @@
 		position: absolute;
 		width: 100%;
 		height: min(65vh, 500px);
-		background-image: linear-gradient(
-				60deg,
-				rgba(var(--color--primary-rgb), 0.7),
-				rgba(var(--color--primary-rgb), 0.1)
-			),
-			url('images/bg.png');
-		backdrop-filter: blur(10px);
 		background-size: cover; // to make sure your image covers the whole container
 		background-position: center; // to center your image
 		background-blend-mode: overlay; // to blend the background image and the gradient color
@@ -58,6 +54,27 @@
 		@include for-phone-only {
 			height: min(75vh, 400px);
 		}
+	}
+	.image {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1; /* Ensure the image is behind your other content */
+		/* The following styles create a linear gradient overlay similar to your original styles */
+		background: linear-gradient(
+			60deg,
+			rgba(var(--color--primary-rgb), 0.7),
+			rgba(var(--color--primary-rgb), 0.1)
+		);
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* This will ensure your image covers the whole container */
+		object-position: center; /* This will center your image within the .image div */
 	}
 
 	.waves {
