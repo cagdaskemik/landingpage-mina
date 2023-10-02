@@ -48,7 +48,7 @@
 				rgba(var(--color--primary-rgb), 0.7),
 				rgba(var(--color--primary-rgb), 0.1)
 			),
-			url('images/bg.jpg');
+			url('images/bg.png');
 		backdrop-filter: blur(10px);
 		background-size: cover; // to make sure your image covers the whole container
 		background-position: center; // to center your image
