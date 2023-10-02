@@ -7,7 +7,7 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Hi! I'm Mina. Welcome to my website!</h1>
+	<h1 class="hello">Hi! I'm Mina. Welcome to my portfolio!</h1>
 	<p class="intro">
 		<span class="left">Its not quite finished yet, but</span>
 		<span class="right">we'll make it as you desire!</span>

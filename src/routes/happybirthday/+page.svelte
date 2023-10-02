@@ -11,8 +11,14 @@
 <main>
 	<div class="error-page">
 		<div class="container">
-			<h1>Happy Birthday Mina!</h1>
-			<p>This section will contain a birthday message from huesitos.</p>
+			<h1>“Because you believed in me</h1>
+				<h1>I believed in me”</h1>
+			<p> </p>
+<p>Thank you for being an inspiration</p>
+<p>As an Artist</p>
+<p>And as a Leader</p>
+<p>with your kindness and creativity</p>
+
 			<br />
 			<Button href="/">Return to Home</Button>
 		</div>
